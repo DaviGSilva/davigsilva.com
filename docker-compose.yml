@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  blog:
+    build: .
+    ports:
+      - 127.0.0.1:8000:8000
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: vendor/bin/jigsaw serve --host 0.0.0.0
