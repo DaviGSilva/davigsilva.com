@@ -3,16 +3,17 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'http://localhost',
     'production' => false,
-    'siteName' => 'Blog Starter Template',
-    'siteDescription' => 'Generate an elegant blog with Jigsaw',
-    'siteAuthor' => 'Author Name',
+    'siteName' => "davigsilva",
+    'siteDescription' => 'Blog de tecnologia focado em engenharia de software',
+    'siteAuthor' => 'Davi G Silva',
+    'ageAuthor' => date('Y') - 1998,
 
     // collections
     'collections' => [
         'posts' => [
-            'author' => 'Author Name', // Default author, if not provided in a post
+            'author' => 'Davi G Silva',
             'sort' => '-date',
             'path' => 'blog/{filename}',
         ],
