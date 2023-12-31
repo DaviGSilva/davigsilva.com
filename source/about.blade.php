@@ -64,4 +64,10 @@ description: Página falando sobre início da minha carreira até hoje e o motiv
         <span class="underline">crítica ou sugestão pode me mandar mensagem</span>
         , as vezes demoro pra responder, mas respondo 🙂
     </p>
+    <p class="mb-6">
+        Você pode me encontrar em
+        <a href="https://www.linkedin.com/in/davigsilva/" target="blank">linkedin.com/in/davigsilva</a>
+        e
+        <a href="https://github.com/davigsilva" target="blank">github.com/davigsilva</a>
+    </p>
 @endsection
