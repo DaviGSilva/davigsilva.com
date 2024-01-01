@@ -30,7 +30,9 @@
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <h1 class="text-lg md:text-2xl text-blue-800 font-semibold hover:text-blue-600 my-0">{{ $page->siteName }}</h1>
+                        <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-violet-500 text-lg md:text-2xl font-bold hover:text-indigo-600 my-0">
+                            {{ $page->siteName }}
+                        </h1>
                     </a>
                 </div>
 
@@ -57,7 +59,7 @@
                     and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind</a>.
                 </li>
                 <li>
-                    Hosted on <a href="https://github.com">GitHub</a>
+                    &nbsp;Hosted on <a href="https://github.com">GitHub</a>
                 </li>
             </ul>
         </footer>
