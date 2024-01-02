@@ -2,9 +2,9 @@ version: "3"
 
 services:
   blog:
-    build: .
+    image: davigsilva/jigsaw-blog
     ports:
-      - 127.0.0.1:8000:8000
+      - 127.0.0.1:${APP_PORT}:${APP_PORT}
     volumes:
       - ./:/app
     working_dir: /app

@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'http://localhost',
+    'baseUrl' => 'http://localhost:'.getenv('APP_PORT'),
     'production' => false,
     'siteName' => "davigsilva",
     'siteDescription' => 'Blog de tecnologia focado em engenharia de software',
