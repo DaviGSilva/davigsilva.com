@@ -21,7 +21,7 @@ description: Página falando sobre início da minha carreira até hoje e o motiv
         <br>
         O professor sempre passava pequenos desafios e isso era sempre estimulante, ficar "quebrando a cabeça" para achar uma solução!
         <br>
-        Tive muita sorte na escolha do curso, porque {{ date('Y') - 2014 }} depois cá estou, ainda programando.
+        Tive muita sorte na escolha do curso, porque {{ date('Y') - 2014 }} anos depois cá estou, ainda programando.
     </p>
     <p class="mb-6">
         <span class="bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-violet-500 font-semibold">
