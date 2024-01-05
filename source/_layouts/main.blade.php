@@ -55,11 +55,11 @@
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-none">
                 <li>
-                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind</a>.
+                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten" target="_blank">Jigsaw</a>
+                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework" target="_blank">Tailwind</a>.
                 </li>
                 <li>
-                    &nbsp;Hosted on <a href="https://github.com">GitHub</a>
+                    &nbsp;Hosted on <a href="https://pages.github.com/" title="Hosted directly from your GitHub repository" target="_blank">GitHub Pages</a>.
                 </li>
             </ul>
         </footer>
