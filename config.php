@@ -8,7 +8,7 @@ return [
     'siteName' => "davigsilva",
     'siteDescription' => 'Blog de tecnologia focado em engenharia de software',
     'siteAuthor' => 'Davi G Silva',
-    'ageAuthor' => date('Y') - 1998,
+    'ageAuthor' => date_diff(date_create('1998-11-17'), date_create(date('Y-m-d')))->format('%y'),
 
     // collections
     'collections' => [
