@@ -30,7 +30,7 @@
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-violet-500 text-lg md:text-2xl font-bold hover:text-indigo-600 my-0">
+                        <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-violet-500 text-lg md:text-2xl font-bold hover:text-sky-500 my-0">
                             {{ $page->siteName }}
                         </h1>
                     </a>
